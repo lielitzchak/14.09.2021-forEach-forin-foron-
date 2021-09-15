@@ -38,22 +38,47 @@
 //! home work
 
 //! exeresie 1
-// const articles = [];
+
+// const articles = [
+//   { title: "article1", writer: "writer1", date: "01.01.2000" },
+//   { title: "article4", writer: "writer2", date: "10.02.1980" },
+//   { title: "article2", writer: "writer3", date: "10.01.1995" },
+//   { title: "article3", writer: "writer4", date: "01.02.1984" },
+// ];
+// 1.a
+// articles.forEach(element => {
+//   console.log(element);
+// });
+
+
+// 1.b
+// for (const iterator of articles) {
+//   console.log(iterator);
+  
+// }
 
 //! exeresie 2
-
-const arrayObj = [
-  { a: "obj1", b: "num1" },
-  { a1: "obj2", b1: "num2" },
-];
-
-for (let i = 0; i < arrayObj.length; i++) {
-  for (const key in arrayObj[i]) {
-    console.log(`the key is "${key}" and  the object is "${arrayObj[i][key]}"`);
-  }
-}
-
+// const arrayObj = [
+//   { a: "obj1", b: "num1" },
+//   { a: "obj2", b: "num2" },
+// ];
+// for (let i = 0; i < arrayObj.length; i++) {
+//   for (const key in arrayObj[i]) {
+//     console.log(`the key is "${key}" and  the object is "${arrayObj[i][key]}"`);
+//   }
+// }
 //! exeresie 3
+// const books = [
+//   { nameBooks: "book1", writer: "writer1", price: 55 },
+//   { nameBooks: "book2", writer: "writer2", price: 12 },
+//   { nameBooks: "book3", writer: "writer3", price: 98 },
+//   { nameBooks: "book4", writer: "writer4", price: 27 },
+//   { nameBooks: "book5", writer: "writer5", price: 52 },
+// ];
+// books.forEach((book, y) => {
+//   console.log(book);
+// });
+
 //! exeresie 4
 // const num_to_result = [4, 2, 4, 10];
 //!  4.a
